@@ -2,7 +2,8 @@
 
 .container-header {
   max-width: 1500px;
-
+  position: relative;
+  margin: auto;
   &__header {
     max-width: 100%;
   }
@@ -13,8 +14,8 @@
     text-align: center;
     justify-content: center;
     position: absolute;
-    top: 18%;
-    left: 36%;
+    top: calc(50% - 77px);
+    left: calc(50% - 161px);
     letter-spacing: 4px;
     line-height: 1.5;
     &__title {
@@ -37,6 +38,9 @@
     color: #000;
     background-color: #f1f1f1;
     border-radius: 4px;
+    position: absolute;
+    bottom: -19px;
+    left: calc(50% - 130px);
 
     display: flex;
     justify-content: center;
@@ -54,7 +58,7 @@
 }
 
 .container-wrapper-photo {
-  padding: 12px 24px;
+  padding: 12px 0px;
   margin-top: 6px;
   max-width: 980px;
   margin-left: auto;

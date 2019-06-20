@@ -1,0 +1,110 @@
+.container-header {
+  max-width: 1500px;
+}
+.container-header__header {
+  max-width: 100%;
+}
+.container-header .container-wrapper-info {
+  color: #f1f1f1;
+  padding: 12px 24px;
+  border: 1px solid #ccc;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 18%;
+  left: 36%;
+  letter-spacing: 4px;
+  line-height: 1.5;
+}
+.container-header .container-wrapper-info__title {
+  font-size: 48px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 10px 0px;
+}
+.container-header .container-wrapper-info__text {
+  font-size: 24px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 10px 0px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.container-header .container-button {
+  width: auto;
+  color: #000;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+}
+.container-header .container-button__button {
+  bottom: -16px;
+  padding: 8px 16px;
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+}
+.container-header .container-button__button:hover {
+  background: #ccc;
+}
+
+.container-wrapper-photo {
+  padding: 12px 24px;
+  margin-top: 6px;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-wrapper-photo img {
+  max-width: 100%;
+}
+.container-wrapper-photo .container-contact {
+  color: #000;
+  background-color: #f1f1f1;
+  padding: 12px 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-top: 16px;
+}
+.container-wrapper-photo .container-contact__title {
+  font-size: 24px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.container-wrapper-photo .container-contact__text {
+  font-size: 15px;
+  font-family: Verdana, sans-serif;
+  margin: 15px 0px;
+}
+.container-wrapper-photo .container-contact .container-form {
+  display: block;
+}
+.container-wrapper-photo .container-contact .container-form__speakers {
+  margin: 16px 0px;
+}
+.container-wrapper-photo .container-contact .container-form__speakers .row {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+.container-wrapper-photo .container-contact .container-form__button {
+  color: #fff;
+  background-color: #616161;
+  padding: 8px 16px;
+  font-size: 15px;
+  font-family: Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+.container-wrapper-photo .container-contact .container-form__button:hover {
+  color: #000;
+  background: #ccc;
+}
+
+/*# sourceMappingURL=index.css.map */

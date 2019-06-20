@@ -1,0 +1,12 @@
+{
+  "name": "photo-portfolio-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass --watch index.scss styles/index.css"
+  },
+  "author": "Andriyana Martsin",
+  "license": "ISC"
+}
